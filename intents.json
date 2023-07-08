@@ -1,0 +1,141 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+   "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+   "context_set": ""
+  },
+  {"tag": "diseasenakuru",
+   "patterns": ["What are the animal diseases rampant in Nakuru", "Animal diseases in Nakuru"],
+   "responses": ["Common animal diseases in Nakuru include lumpyskin and foot-mouth"],
+   "context_set": ""
+  },
+  {"tag": "animaldisease",
+   "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+   "responses": ["I am 18 years old!", "18 years young!"],
+   "context_set": ""
+  },
+  {"tag": " Lumpyskin",
+   "patterns": ["What is lumpy skin disease", 
+   "Which kind of animal does lumpy disease affect",
+   "What is the mortality of an animal with this disease"
+  ],
+   "responses": ["Lumpy skin disease is a highly contagious disease viral in cattle and has low mortality"],
+   "context_set": ""
+  },
+  {"tag": "diseasecontrol",
+   "patterns": ["How to control this disease", 
+  " How to treat an animal with lumpy skin"],
+   "responses": ["This is done by culling  all infected animal and movement of controls to prevent spread"],
+   "context_set": ""
+  },
+  {"tag": "footandmouth",
+   "patterns": ["What is foot and mouth",
+   "What animal does foot and mouth affect"],
+   "responses": ["Foot and mouth is a highly contagious disease affecting cattle and other cloven hoofed animals"],
+   "context_set": ""
+  },
+  {"tag": "footandmouthsymptoms",
+   "patterns": ["Symptoms of foot and mouth", 
+  " What are the symptoms of  foot and mouth"],
+   "responses": ["Its symptoms include fever, blisters on the tongue and lips, in the mouth, on the teats and between hooves, lameness or loss of mobility"],
+   "context_set": ""
+  },
+  {"tag": "footandmouthcontrol",
+  "patterns": ["How to control this disease ",
+  "How to treat an animal with foot and mouth"],
+  "responses": ["This is done by culling  all infected animal and movement of controls to prevent spread Sorry but there is no cure for this disease  but supportive drugs can be used such as anti-inflamatory and antibiotics"],
+  "context_set": ""
+ },
+ {"tag": "footandmouthblisters",
+ "patterns": ["my cow has blisters in the mouth and between the hooves",
+ "What diseases in cows has sypmtoms like blisters between hoovesor on the  tongue and lips and also causes lameness"],
+ "responses": ["Foot and mouth is the most probable disease affecting your cow"],
+ "context_set": ""
+},
+ {"tag": "Dog diseases",
+ "patterns": ["What are the diseases affecting dogs"],
+ "responses": ["Diseases affecting dogs include rabies, distemper, parvovirus, lyme disease"],
+ "context_set": ""
+},
+{"tag": "rabies",
+"patterns": ["What is rabies", 
+"What are the symptoms of rabies",
+"How do you treat rabies"],
+"responses": ["Symptoms of rabies include fever, seizures, paralysis, hydrophobia, jaw is dropped and there is loss of muscle coordination"],
+"context_set": ""
+},
+{"tag": "distemper",
+"patterns": ["What is distemper",
+"What are the symptoms of distemper"],
+"responses": ["Symptoms of distemper include coughing, diarrhea,vomiting, seizures and paralysis."],
+"context_set": ""
+},
+{"tag": "parvovirus",
+"patterns": ["What is parvovirus",
+"What are the symptoms of parvovirus"],
+"responses": ["Symptoms of parvovirus include lethargy, vomiting,diarrhea(often bloody), and fever."],
+"context_set": ""
+},
+{"tag": "lymedisease",
+"patterns": ["What is lyme disease",
+"What are the symptoms of lyme disease"],
+"responses": ["Symptoms of lyme disease include fever, lethargy, swollen lymph nodes and lameness"],
+"context_set": ""
+},
+{"tag": " Catdiseases",
+"patterns": ["What are the diseases affecting  Cat"],
+"responses": ["Common diseases affecting cats are Feline leukemia virus,feline infectious peritonitis, feline lower urinary tract disease"],
+"context_set": ""
+},
+{"tag": "felineleukemia",
+"patterns": ["What is feline leukemia",
+"What are the symptoms of feline leukemia"],
+"responses": ["Symptoms of feline leukemia include anemia, weight loss, lethargy and diarrhea."],
+"context_set": ""
+},
+{"tag": "felineimmunodeficiencyVirus",
+"patterns": ["What is feline immunodeficiency Virus",
+"What are the symptoms of feline immunodeficiency Virus"],
+"responses": ["Symptoms include fever, lethargy, swollen lymph nodes and weight loss"],
+"context_set": ""
+},
+{"tag": "felineinfectiousperitonitis",
+"patterns": ["What is feline infectious peritonitis",
+"What are the symptoms of feline infectious peritonitis"],
+"responses": ["They include fever, lethargy, anorexia and weight loss"],
+"context_set": ""
+},
+{"tag": " felinelowerurinarytractdisease",
+"patterns": ["What is  feline lower urinary tract disease",
+"What are the symptoms of  feline lower urinary tract disease"],
+"responses": ["They include straining to urinate, frequent urination, blood in urine."],
+"context_set": ""
+},
+{"tag": " catfever",
+"patterns": ["My cat has a fever",
+" my cat is suffering from a fever"],
+"responses": ["Your cat might be suffering from feline infectious peritonitis,feline immunodeficiency Virus"],
+"context_set": ""
+},
+{"tag": " caturinaryissues",
+"patterns": ["My cat is  straining to urinate or frequent urination or blood in urine.",
+" my cat is suffering from a fever"],
+"responses": ["Your cat has  feline lower urinary tract disease"],
+"context_set": ""
+},
+{"tag": " catweightlossandlethargy",
+"patterns": ["My cat has lethargy",
+" ive noticed gradual weight loss in my cat"],
+"responses": ["Your cat might be suffering from either  feline immunodeficiency Virus or feline leukemia"],
+"context_set": ""
+},
+{"tag": " hairlossitchingandskinlesionsincats",
+"patterns": ["causes hair loss, itching, and skin lesions in cats"],
+"responses": ["symptoms may be associated with a condition called flea allergy dermatitis, which occurs when cats develop an allergic reaction to flea bites,Treatment includes flea control measures, such as topical treatments, oral medications, and environmental management to eliminate fleas from the cat's environment. "],
+"context_set": ""
+},
+{"tag": " felinediabetesmellitustreatment",
+"patterns": ["My cat is experiencing weight loss, increased thirst, and frequent urination"],
+"responses": ["These symptoms can be associated with feline diabetes mellitus, a condition caused by an inadequate production or utilization of insulin and treatment often includes insulin injections, dietary management, and weight control strategies."],
+"context_set": ""
+ }]}
